@@ -9,6 +9,9 @@ jQuery(document).ready(function($){
 				video = $('<video loop><source src="'+videoUrl+'.mp4" type="video/mp4" /><source src="'+videoUrl+'.webm" type="video/webm" /></video>');
 			video.appendTo(videoWrapper);
 			video.get(0).play();
+			$('video').prop('volume', 0)
+			$('video').prop('muted', true)
+			
 		}
 	}
 });
