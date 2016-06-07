@@ -1576,7 +1576,7 @@ padding: 8px 15px;
 #location{ }
 .map {
     height: 450px;
-    z-index: 1;
+    z-index: 12.7;
     width: 100%;
 }
 /* Contact Form
